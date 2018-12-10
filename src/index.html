@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+	<style type="text/css">
+		.header{
+			display: flex;
+			justify-content:space-between;
+			align-items: center;
+			background: #FC3668;
+		}
+		.header li{
+			display: flex;
+		}
+		.header  .fan{
+			color:white;
+			font-weight: 600;
+		}
+		.header li img{
+			width: 100px;
+		}
+
+		#pic{
+			margin-top: 50px;
+			width:100%;
+			height: 123px;
+		}
+		img{
+			width: 100%;
+			height: 100%;
+		}
+		.mui-scroll-wrapper{
+			margin-top: 260px;
+			
+		}
+		.two{
+			width: 100%;
+			height: 45px;
+           margin-top: 25px;
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+		}
+		.two li{
+			list-style: none;
+			margin-left: 0;
+			margin-right: 15px;
+			width:100px;
+			height: 100%;
+			line-height: 45px;
+			font-weight: bolder;
+			text-align:center ;
+			
+		
+			
+		}
+		.two .color{
+			color:#FC3668;
+			border-bottom:2px solid #FC3668;
+		}
+		#one {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		#one li{
+			width:50%;
+			height: 300px;
+			list-style: none;
+			
+		}
+		#one li img{
+			width:98%;
+			height: 220px;
+			
+		}
+		
+		
+	</style>
+</head>
+<body>
+	<div id="big">
+		<div class="mui-bar mui-bar-nav header">
+				<li class="fan">饭圈大咖</li>
+				<li><img src="img/rr.png" ></li>
+			</div>
+			<div id="pic">
+				<img src="img/header.png" >
+			</div>
+			<div class="two">
+				<li class="color">我的爱豆</li>
+				<li>所有爱豆</li>
+				<li>饭圈大咖</li>
+				
+				
+			</div>
+			
+			<div class="mui-scroll-wrapper">
+			<div class="mui-scroll">
+				<div class="mui-content">
+				<div id="one">
+					
+				</div>
+				<div id="two">
+					
+				</div>
+				<div id="three">
+					
+				</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+		
+		
+
+	
+	
+	
+	
+	
+	
+	<script src="js/lib/require.js" data-main="js/page/index.js">
+		
+	</script>
+	
+	
+</body>
+</html>
